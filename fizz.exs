@@ -1,4 +1,5 @@
 #Code.require_file("local_plate.exs")
+Code.require_file("boiler_plate.exs")
 
 defmodule FizzBuzz do
   def host, do: {192, 168, 64, 237} #'localhost'
@@ -28,4 +29,4 @@ defmodule FizzBuzz do
 
 end
 
-#BoilerPlate.connect(FizzBuzz)
+BoilerPlate.connect(FizzBuzz)
