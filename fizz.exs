@@ -1,7 +1,7 @@
 #Code.require_file("local_plate.exs")
 
 defmodule FizzBuzz do
-  def host, do: {192, 168, 16, 107} #'localhost'
+  def host, do: {192, 168, 64, 237} #'localhost'
   def port, do: 8080
   def filename, do: __ENV__.file
   def team, do: "Pano Branco Pato fu"
